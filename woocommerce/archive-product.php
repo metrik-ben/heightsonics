@@ -8,20 +8,19 @@ get_header();
 <main id="primary" class="site-main">
 	<?php include get_template_directory() . '/components/navigation.php'; ?>
 	<?php include get_template_directory() . '/components/mobileNavigation.php'; ?>
-    <div class="hero" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/heightbgcol.png')">
+    <div class="hero" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/heightbgcol.gif')">
         <div class="hero__cont">
-        <div class="hero__cont__logo">
-            <img src="<?=get_template_directory_uri()?>/assets/images/heightsampleslogo.png" alt="Height Samples logo">
-        </div>
+        <div class="hero__overlay">
+			<div class="hero__cont__logo">
+				<img src="<?=get_template_directory_uri()?>/assets/images/HeightLogo.svg" alt="Height Samples logo">
+			</div>
+			<a href="#about" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+		</div>
         </div>
     </div>
 	<div class="shop">
 			<div class="shop__about" id="about">
-				<div class="shop__about__left">
-					<img class="shop__about__left__image" src="<?=get_template_directory_uri()?>/assets/images/portImage.png" alt="">
-					<div id="particles-js-sampleabout" class="particles-js"></div>
-				</div>
-				<div class="shop__about__right">
+			<div class="shop__about__right">
 					<div class="shop__about__right__content">
 						<h1>Production Made Simple</h1>
 						<p>
@@ -29,7 +28,10 @@ get_header();
 						</p>
 					</div>
 				</div>
-
+				<div class="shop__about__left">
+					<img class="shop__about__left__image" src="<?=get_template_directory_uri()?>/assets/images/portImage.png" alt="">
+					<div id="particles-js-sampleabout" class="particles-js"></div>
+				</div>
 			</div>
 			<div class="shop__shopCont">
 				<div class="shop__container">
@@ -55,6 +57,11 @@ get_header();
 					</div>
 				</div>
 				<div id="particles-js-sampleshop" class="particles-js"></div>
+			</div>
+			<div class="contact">
+			<div class="shop__container">
+				<p>Contact section to go here</p>
+			</div>
 			</div>
 
 	</div>

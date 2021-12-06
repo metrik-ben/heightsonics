@@ -7,6 +7,7 @@ get_header(); ?>
     <?php include 'components/navigation.php'; ?>
   <?php include get_template_directory() . '/components/mobileNavigation.php'; ?>
     <div class="hero" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/heightbg.png')">
+    <div class="hero__overlay" ></div>
         <div class="hero__cont">
         <div class="hero__cont__logo">
             <img src="<?=get_template_directory_uri()?>/assets/images/heightlogowhite.png" alt="Height Mastering logo">

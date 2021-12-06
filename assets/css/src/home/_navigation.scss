@@ -31,7 +31,6 @@
     display: flex;
     align-items: flex-end;
 
-
     &__links {
       margin-right: 5rem;
       font-size: 25px;
@@ -43,12 +42,12 @@
       display: flex;
       align-items: center;
 
-      @include respond(laptop){
+      @include respond(laptop) {
         margin-right: 4rem;
-        font-size: 22px;
+        font-size: 14px;
       }
 
-      @include respond(tab-land){
+      @include respond(tab-land) {
         margin-right: 2rem;
         font-size: 20px;
       }
@@ -58,7 +57,6 @@
         height: auto;
         position: relative;
       }
-
 
       &:before,
       &:after {

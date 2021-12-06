@@ -22,7 +22,7 @@
     p {
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
+      font-size: 12px;
       line-height: 120%;
       text-align: center;
     }
@@ -31,11 +31,11 @@
       display: flex;
       align-items: center;
 
-        img {
-          width: 40px;
-          height: auto;
-          margin-right: 2rem;
-        }
+      img {
+        height: 30px;
+        width: auto;
+        margin-right: 2rem;
+      }
     }
 
     &__links {
@@ -47,11 +47,10 @@
       a {
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 120%;
         position: relative;
         transition: all 0.2s ease-in-out;
-
 
         @include respond(tab-port) {
           width: 45%;
@@ -81,6 +80,5 @@
         }
       }
     }
-
   }
 }
